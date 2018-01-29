@@ -1,0 +1,33 @@
+{
+  "name": "babel-plugin-transform-react-error-boundary",
+  "version": "1.0.0",
+  "description": "Wraps each component with your own error boundary component.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "unit": "mocha",
+    "test": "npm run lint && npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vodkabears/babel-plugin-transform-react-error-boundary.git"
+  },
+  "author": "Ilya Caulfield <ilya.caulfield@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/vodkabears/babel-plugin-transform-react-error-boundary/issues"
+  },
+  "homepage": "https://github.com/vodkabears/babel-plugin-transform-react-error-boundary#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "eslint": "^4.19.0",
+    "mocha": "^4.0.1"
+  },
+  "engine": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "babylon": "^6.18.0"
+  }
+}

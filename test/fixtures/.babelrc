@@ -1,0 +1,8 @@
+{
+    "plugins": [
+        "syntax-jsx",
+        ["../../src/index.js", {
+            "ErrorBoundary": "./path/to/my/ErrorBoundary.js"
+        }]
+    ]
+}
