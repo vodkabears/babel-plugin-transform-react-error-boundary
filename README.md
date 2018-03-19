@@ -2,6 +2,11 @@
 
 Wraps each component with your own error boundary component.
 
+## Note
+
+Use it only to build a client bundle.    
+For a server bundle use: https://github.com/doochik/babel-plugin-transform-react-ssr-try-catch.
+
 ## Quick start
 
 Install:
@@ -9,7 +14,7 @@ Install:
 npm install --save-dev babel-plugin-transform-react-error-boundary
 ```
 
-Webpack config example: 
+Webpack client config example: 
 ```
 {
     test: /\.jsx?$/,
